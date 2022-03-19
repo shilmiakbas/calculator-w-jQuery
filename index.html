@@ -128,26 +128,15 @@ font-family: 'Spline Sans', sans-serif;
 
         
 
-        $(document).ready(function(){
-
-         
-
-
-
-            $(".num").click(function(){
-                
+        $(document).ready(function(){  
+            $(".num").click(function(){                
                 $("#display").val($("#display").val() + this.value)
-
             });
-
          
             $(".opt").click(function(){
                 $("#display").val($("#display").val() + this.value)           
              });
             
-
-
-
             $("#equation").click(function(){
                 $("#display").val(eval($("#display").val()))
             });
